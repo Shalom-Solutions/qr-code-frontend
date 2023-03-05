@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400&family=Outfit&family=Poppins:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+main {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(212, 45%, 89%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 0.94rem;
+}
+main .container {
+  max-width: 360px;
+  margin: 0 auto;
+}
+main .container .card {
+  background-color: hsl(0, 0%, 100%);
+  padding: 1.125rem;
+  border-radius: 1.06rem;
+  text-align: center;
+  margin: 0 1rem;
+}
+main .container .card img {
+  width: 100%;
+  border-radius: 0.75rem;
+}
+main .container .card .card-title {
+  padding: 22px 10px;
+}
+main .container .card .card-title h2 {
+  color: hsl(218, 44%, 22%);
+  padding-bottom: 15px;
+}
+main .container .card .card-title p {
+  color: hsl(220, 15%, 55%);
+}/*# sourceMappingURL=style.css.map */
